@@ -6,9 +6,19 @@
 </head>
 <body>
   <div class="container-fluid">
-    <button type="button" class="btn btn-info my-5" onclick="darkMode()">Darkmode</button>
-    <button type="button" class="btn btn-info my-5" onclick="lightMode()">LightMode</button>
-    <script>
+    <div>
+      <h1 class="mt-5"><strong>OMG! You won't believe it, but ...</strong></h1>
+      <h1 id="the-Excuse" class="mt-5">My dog ate my homework!</h1>
+    </div>
+    <div>
+      <button type="button" class="btn btn-info my-5" value="Refresh" onclick="history.go(0)">
+        Generate new Excuse
+      </button>
+    </div>
+    <div>
+      <button type="button" class="btn btn-info" onclick="darkMode()">Darkmode</button>
+      <button type="button" class="btn btn-info" onclick="lightMode()">LightMode</button>
+      <script>
       function darkMode() {
           let element = document.body;
           let content = document.getElementById("DarkModetext");
@@ -21,15 +31,7 @@
           element.className = "light-mode";
           content.innerText = "Dark Mode is OFF";
       }
-  </script>
-    <div>
-      <h1 class="mt-5">OMG! You won't believe it, but ...</h1>
-      <h1 id="the-Excuse" class="mt-5">My dog ate my homework!</h1>
-    </div>
-    <div>
-      <button type="button" class="btn btn-info my-5" value="Refresh" onclick="history.go(0)">
-        Generate new Excuse
-      </button>
+      </script>
     </div>
   </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
