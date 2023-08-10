@@ -1,0 +1,22 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: rgb(236, 214, 236);
+  color: rgb(186, 43, 124);
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+.dark-mode {
+  background-color: rgb(96, 10, 59);
+  color: rgb(236, 214, 236);
+}
+
+.light-mode {
+  background-color: rgb(236, 214, 236);
+  color: rgb(186, 43, 124);
+}
