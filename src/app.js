@@ -33,7 +33,9 @@ function generateExcuse() {
 window.onload = () => {
   document.querySelector("#the-Excuse").innerHTML = generateExcuse();
 };
-
+//En cuanto a estilos, diseños y funcionalidad me parece genial el proyecto. Tamaño de letra adecuado, botones intuitivos y colores bastante bien.
+//Lo unico que me llmama la atencion y lo miraria, es la funcion "darkMode" y "lightMode". Las trabajaria directamente desde JavaScript sin escribir codigo en HTML.
+//Por lo demas, muy buen trabajo Sophia. Sigue así.
 function darkMode() {
   let element = document.body;
   let content = document.getElementById("DarkModetext");
